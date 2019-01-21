@@ -1,4 +1,4 @@
-?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2019 Descendant
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -13,10 +13,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
-        android:key="descendant_recent_settings"
-        android:fragment="org.descendant.utility.RecentsSettings"
-        android:icon="@drawable/ic_recents"
-        android:title="@string/recent_settings_title"/>
+        <Preference
+            android:key="recents_icon_pack"
+            android:icon="@drawable/ic_recents_icon_pack"
+            android:title="@string/recents_icon_pack_title"
+            android:summary="@string/recents_icon_pack_summary" />
 
 </PreferenceScreen>
