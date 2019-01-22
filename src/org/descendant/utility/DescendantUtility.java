@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.descendant.gestures;
+package org.descendant.utility;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -28,13 +28,13 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class DescendantGestures extends SettingsPreferenceFragment {
+public class DescendantUtility extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.descendant_gestures);
+        addPreferencesFromResource(R.xml.descendant_utility);
     }
 
     @Override

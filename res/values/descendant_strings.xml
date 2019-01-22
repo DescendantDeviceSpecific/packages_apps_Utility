@@ -19,11 +19,21 @@
     <string name="dialog_pick_iconpack_title">Pick icon pack</string>
     <string name="default_iconpack_title">Default icons</string>
 
-
     <!-- Statusbar net monitor -->
     <string name="network_traffic">Network monitor options</string>
     <string name="net_monitor_category_title">Network monitor</string>
     <string name="network_traffic_state_title">Show net activity in expanded statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+
+    <!-- QS rows and columns -->
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    <string name="qs_tile_title_visibility_title">Show tiles title</string>
+
+    <!-- Recents panel -->
+    <string name="recent_settings_title">Recents Panel</string>
 
 </resources>
