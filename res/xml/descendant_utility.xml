@@ -37,4 +37,10 @@
             android:title="@string/qs_tile_title_visibility_title"
             android:defaultValue="true" />
 
+    <Preference
+        android:key="battery_styles"
+        android:icon="@drawable/ic_battery_styles"
+        android:title="@string/battery_style_title"
+        android:fragment="org.descendant.utility.StatusbarSettings"/>
+
 </PreferenceScreen>
