@@ -24,19 +24,22 @@
             android:key="qs_tile_title_visibility"
             android:icon="@drawable/ic_net_hide"
             android:title="@string/qs_tile_title_visibility_title"
+            android:summary="@string/qs_tile_title_visibility_summary"
             android:defaultValue="true" />
 
     <Preference
         android:key="qs_rows_columns"
         android:icon="@drawable/ic_qs_rows_columns"
         android:fragment="org.descendant.utility.QsRowsColumns"
-        android:title="@string/qs_rows_columns_title"/>
+        android:title="@string/qs_rows_columns_title"
+        android:summary="@string/qs_rows_columns_summary"/>
 
     <Preference
         android:key="descendant_network_traffic"
         android:fragment="org.descendant.utility.NetworkTraffic"
         android:icon="@drawable/ic_network_traffic"
-        android:title="@string/network_traffic"/>
+        android:title="@string/network_traffic"
+        android:summary="@string/network_traffic_summary"/>
 
     </PreferenceCategory>
                                     
@@ -50,7 +53,8 @@
         android:key="descendant_charging_light"
         android:icon="@drawable/ic_leds"
         android:fragment="org.descendant.utility.BatteryLightSettings"
-        android:title="@string/descendant_battery_light_settings" />
+        android:title="@string/descendant_battery_light_settings" 
+        android:summary="@string/descendant_battery_light_settings_summary"/>
 
     </PreferenceCategory>
 
@@ -58,6 +62,7 @@
         android:key="battery_styles"
         android:icon="@drawable/ic_battery_styles"
         android:title="@string/battery_style_title"
+        android:summary="@string/battery_style_summary"
         android:fragment="org.descendant.utility.StatusBarSettings"/>
 
     <PreferenceCategory
@@ -70,7 +75,9 @@
         android:key="descendant_recent_settings"
         android:fragment="org.descendant.utility.RecentsSettings"
         android:icon="@drawable/ic_recents"
-        android:title="@string/recents_settings_title"/>
+        android:title="@string/recents_settings_title"
+        android:summary="@string/recents_settings_summary"/>
+
     </PreferenceCategory>
     
 </PreferenceScreen>

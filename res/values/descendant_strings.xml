@@ -24,18 +24,22 @@
     <string name="net_monitor_category_title">Network monitor</string>
     <string name="network_traffic_state_title">Show net activity in expanded statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_summary">Personalize network speed behaviour on expanded QS</string> 
 
     <!-- QS rows and columns -->
-    <string name="qs_cust">Quicksettings options</string>
+    <string name="qs_cust">Quick settings options</string>
     <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_columns_summary">Personalize QS rows and columns</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_tile_title_visibility_title">Show QS tiles titles</string>
+    <string name="qs_tile_title_visibility_summary">Enable or disable tiles titles</string>
 
     <!-- Recents panel -->
     <string name="recents_settings_title">Recents panel</string>
+    <string name="recents_settings_summary">Personalize the icon pack applied on recents</string>
     <string name="recents_cust">Recent options</string>
     
     <!-- Battery -->
@@ -60,6 +64,7 @@
 
     <!-- Battery light -->
     <string name="descendant_battery_light_settings">Battery light settings</string>
+    <string name="descendant_battery_light_settings_summary">Personalize your LED behaviour</string>
     <string name="battery_not_charging">Normal battery light behaviour</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
