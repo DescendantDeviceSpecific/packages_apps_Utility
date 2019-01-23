@@ -26,16 +26,21 @@
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 
     <!-- QS rows and columns -->
+    <string name="qs_cust">Quicksettings options</string>
     <string name="qs_rows_columns_title">QS rows and columns</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
-    <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <string name="qs_tile_title_visibility_title">Show QS tiles titles</string>
 
     <!-- Recents panel -->
     <string name="recents_settings_title">Recents panel</string>
-
+    <string name="recents_cust">Recent options</string>
+    
+    <!-- Battery -->
+    <string name="battery_cust">Battery settings</string>
+    
     <!-- Battery Styles -->
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Change the style of the status bar battery</string>

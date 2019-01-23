@@ -13,24 +13,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
-        android:key="descendant_recent_settings"
-        android:fragment="org.descendant.utility.RecentsSettings"
-        android:icon="@drawable/ic_recents"
-        android:title="@string/recents_settings_title"/>
 
-    <Preference
-        android:key="descendant_network_traffic"
-        android:fragment="org.descendant.utility.NetworkTraffic"
-        android:icon="@drawable/ic_network_traffic"
-        android:title="@string/network_traffic"/>
-
-    <Preference
-        android:key="qs_rows_columns"
-        android:icon="@drawable/ic_qs_rows_columns"
-        android:fragment="org.descendant.utility.QsRowsColumns"
-        android:title="@string/qs_rows_columns_title"/>
-
+    <PreferenceCategory
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
+        android:title="@string/qs_cust"
+        android:key="descendant_qs_cust">
+    
     <org.descendant.support.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_title_visibility"
             android:icon="@drawable/ic_net_hide"
@@ -38,12 +27,23 @@
             android:defaultValue="true" />
 
     <Preference
-        android:key="battery_styles"
-        android:icon="@drawable/ic_battery_styles"
-        android:title="@string/battery_style_title"
-        android:fragment="org.descendant.utility.StatusBarSettings"/>
+        android:key="qs_rows_columns"
+        android:icon="@drawable/ic_qs_rows_columns"
+        android:fragment="org.descendant.utility.QsRowsColumns"
+        android:title="@string/qs_rows_columns_title"/>
 
+    <Preference
+        android:key="descendant_network_traffic"
+        android:fragment="org.descendant.utility.NetworkTraffic"
+        android:icon="@drawable/ic_network_traffic"
+        android:title="@string/network_traffic"/>
+
+    </PreferenceCategory>
+                                    
     <PreferenceCategory
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
+        android:title="@string/battery_cust"
         android:key="descendant_leds">
 
     <Preference
@@ -54,4 +54,23 @@
 
     </PreferenceCategory>
 
+    <Preference
+        android:key="battery_styles"
+        android:icon="@drawable/ic_battery_styles"
+        android:title="@string/battery_style_title"
+        android:fragment="org.descendant.utility.StatusBarSettings"/>
+
+    <PreferenceCategory
+        settings:allowDividerAbove="false"
+        settings:allowDividerBelow="false"
+        android:title="@string/recents_cust"
+        android:key="descendant_recents_cust">
+
+    <Preference
+        android:key="descendant_recent_settings"
+        android:fragment="org.descendant.utility.RecentsSettings"
+        android:icon="@drawable/ic_recents"
+        android:title="@string/recents_settings_title"/>
+    </PreferenceCategory>
+    
 </PreferenceScreen>
