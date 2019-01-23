@@ -34,7 +34,7 @@
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
 
     <!-- Recents panel -->
-    <string name="recents_settings_title">Recents Panel</string>
+    <string name="recents_settings_title">Recents panel</string>
 
     <!-- Battery Styles -->
     <string name="battery_style_title">Battery icon style</string>
