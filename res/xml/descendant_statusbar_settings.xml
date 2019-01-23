@@ -12,6 +12,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/battery_style_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <org.descendant.support.preferences.SecureSettingListPreference
