@@ -46,7 +46,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         final ContentResolver resolver = getActivity().getContentResolver();
 
         int batteryStyle = Settings.Secure.getIntForUser(resolver,
-                Settings.Secure.STATUS_BAR_BATTERY_STYLE, 0/*portrait*/,
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, 1/*circle*/,
                 UserHandle.USER_CURRENT);
         mBatteryIconStyle = (ListPreference) findPreference("status_bar_battery_style");
         mBatteryIconStyle.setValue(Integer.toString(batteryStyle));
