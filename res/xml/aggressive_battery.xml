@@ -20,12 +20,14 @@
     <org.descendant.support.preferences.GlobalSettingSwitchPreference
         android:key="aggressive_idle_enabled"
         android:title="@string/aggressive_idle_title"
+        android:icon="@drawable/ic_idle"
         android:summary="@string/aggressive_idle_summary"
         android:defaultValue="false"
         android:dependency="aggressive_battery_saver" />
 
     <org.descendant.support.preferences.GlobalSettingSwitchPreference
         android:key="aggressive_standby_enabled"
+        android:icon="@drawable/ic_standby"
         android:title="@string/aggressive_standby_title"
         android:summary="@string/aggressive_standby_summary"
         android:defaultValue="false"
@@ -33,6 +35,7 @@
 
     <org.descendant.support.preferences.GlobalSettingSwitchPreference
         android:key="aggressive_battery_saver"
+        android:icon="@drawable/ic_battery_saver"
         android:title="@string/aggressive_battery_saver_title"
         android:summary="@string/aggressive_battery_saver_summary"
         android:defaultValue="true"
